@@ -1,0 +1,31 @@
+# .gitignore
+# Python unnecessary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+env/
+venv/
+chatbot/
+.env
+
+# Large Folders (Mounted via Docker volumes)
+models/
+indexes/
+uploads/
+my_db_data/
+data/
+
+# Helper scripts and OS files
+tools/
+cross_encoder_model_downloading.py
+README_UPGRADE.md
+.DS_Store
+Thumbs.db
+smart-doc-key.pem
+project.zip
+db_backup.sh
+db_backups/
+auto_cleanup.sh

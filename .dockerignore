@@ -1,0 +1,21 @@
+# .dockerignore
+
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env
+venv
+.env
+.git
+.gitignore
+# Large folders to be mounted (not copied)
+models/
+indexes/
+uploads/
+data/
+# Helper scripts not needed in production
+tools/
+cross_encoder_model_downloading.py
+README_UPGRADE.md
