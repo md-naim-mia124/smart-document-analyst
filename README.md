@@ -82,5 +82,3 @@ docker-compose up --build -d
 * **Strict Grounding:** If you notice hallucinated numbers or facts, ensure the "Strict Grounding" toggle is turned ON in the Streamlit UI.
 * **Performance:** Temperature is forced low by default to prioritize factual accuracy over creative writing.
 ```
-
-***
